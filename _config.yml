@@ -75,7 +75,7 @@ plugins:
 author:
   name   : "Barbara (Bobbie) Hill"
   avatar : "/assets/images/BobbieHill_color_fullSize.JPG"
-  bio    : "As a resilient leader with over two decades of experience, I am passionate about building robust, scalable platforms while fostering an inclusive culture of mentorship and shared knowledge. I thrive on navigating complex technical challenges by breaking them into achievable, incremental goals that empower my team to grow and succeed together."
+  bio    : "As a resilient technical leader with over two decades of experience, I am passionate about building robust, scalable platforms while fostering an inclusive culture of mentorship and shared knowledge. I thrive on navigating complex technical challenges by breaking them into achievable, incremental goals that empower my team to grow and succeed together."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
