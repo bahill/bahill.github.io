@@ -75,7 +75,7 @@ plugins:
 author:
   name   : "Barbara (Bobbie) Hill"
   avatar : "/assets/images/BobbieHill_color_sqCrop.jpg"
-  bio    : "I bring a human-centric approach to technology leadership, blending deep technical expertise with a passion for building collaborative, high-performing teams.""
+  bio    : "I bring a human-centric approach to technology leadership, blending deep technical expertise with a passion for building collaborative, high-performing teams."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
