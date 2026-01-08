@@ -19,7 +19,7 @@ minimal_mistakes_skin: "contrast" # see https://mmistakes.github.io/minimal-mist
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: bobbie-hill.tech
+title: bobbiehill.tech
 subtitle: (Barbara Allen Hill)
 name: Barbara A Hill
 email: hill.barbara.a@gmail.com
@@ -27,8 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Engineering Leader | Senior Software Engineer | Product Management & Technical Leadership | DevOps | Building High-Performing Teams
 github_username: bahill
 locale: en_US
-url: "https://bobbie-hill.tech" # the base hostname & protocol for your site
-repository: "bahill/bobbie-hill.tech" # the GitHub repository of your site
+url: "https://bobbiehill.tech" # the base hostname & protocol for your site
+repository: "bahill/bahill.github.io" # the GitHub repository of your site
 search: false
 enable_copy_code_button: true
 atom_feed:

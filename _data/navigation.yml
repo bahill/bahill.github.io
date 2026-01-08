@@ -4,6 +4,8 @@ main:
   - title: "Resume"
     url: /resume/
   - title: "Projects"
-    url: /tags/
+    url: /projects/
   - title: "Musings"
     url: /about/
+  - title: "Jekyll Examples Dev"
+    url: /tags/
