@@ -1,11 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "Resume"
-    url: /resume/
-  - title: "Projects"
-    url: /projects/
   - title: "Musings"
-    url: /about/
-  - title: "Jekyll Examples Dev"
-    url: /tags/
+    url: /musings/
+  - title: "Experience"
+    url: /experience/
+  - title: "Impact"
+    url: /impact/
+  
