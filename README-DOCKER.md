@@ -10,7 +10,7 @@ This project includes Docker configuration for local development with live previ
 
 1. **Start the development server:**
    ```bash
-   docker-compose up
+   docker-compose up --build
    ```
 
    On the first run, Docker will build the image and install all Ruby gems into the `jekyll_gems` named volume (2–3 minutes). Subsequent runs will start instantly.
