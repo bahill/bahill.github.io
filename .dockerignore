@@ -1,0 +1,13 @@
+.git
+.gitignore
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+_site
+node_modules
+.DS_Store
+.env
+.env.local
+*.swp
+*.swo
+*~

@@ -29,6 +29,7 @@ github_username: bahill
 locale: en_US
 url: "https://bobbiehill.tech" # the base hostname & protocol for your site
 repository: "bahill/bahill.github.io" # the GitHub repository of your site
+favicon: "/assets/images/BHfavicon.svg"
 search: false
 enable_copy_code_button: true
 atom_feed:
@@ -42,6 +43,9 @@ social:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+sass:
+  sass_dir: _sass
+  style: compressed
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -50,6 +54,9 @@ timezone: America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_t
 
 include:
   - _pages
+
+exclude:
+  - .well-known
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,0 +1,16 @@
+<h2>Bridging the Gap Between Technical Complexity &amp; Human Impact</h2>
+<p>With 20+ years in mission-driven orgs, I lead teams and build systems that turn massive data challenges into sustainable organizational growth.</p>
+
+<h2>Currently thinking about</h2>
+{% assign recent_posts = site.posts %}
+{% for post in recent_posts limit: 3 %}
+<div class="list__item">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  {% if post.excerpt %}<p>{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+</div>
+{% endfor %}
+
+<h2>Leadership &amp; Impact</h2>
+{% include feature_row %}
+
+<p>If you'd like to reach out email me at <a href="mailto:hill.barbara.a@gmail.com">hill.barbara.a@gmail.com</a></p>

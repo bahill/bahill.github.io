@@ -1,0 +1,16 @@
+services:
+  jekyll:
+    build: .
+    container_name: bahill_jekyll_dev
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/site
+      - jekyll_gems:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+    command: bundle exec jekyll serve --host 0.0.0.0 --port 4000 --livereload
+
+volumes:
+  jekyll_gems:

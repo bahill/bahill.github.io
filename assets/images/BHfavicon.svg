@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333ea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circular background -->
+  <circle cx="100" cy="100" r="100" fill="url(#bgGradient)"/>
+  
+  <!-- Initials "BH" -->
+  <text x="100" y="100" font-size="115" font-weight="700" text-anchor="middle" dominant-baseline="central" fill="white" font-family="Didot, Bodoni MT, serif" letter-spacing="-4">BH</text>
+  
+  <!-- Subtle accent ring for polish -->
+  <circle cx="100" cy="100" r="100" fill="none" stroke="#d8b4fe" stroke-width="2" opacity="0.4"/>
+</svg>

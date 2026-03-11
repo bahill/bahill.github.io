@@ -1,35 +1,48 @@
 ---
 layout: single
-title: "About Me"
+title: ""
 permalink: /
 author_profile: true
 classes: wide
 read_time: false
 comments: false
 share: false
+feature_row:
+  - image_path: 
+    title: "People"
+    excerpt: >-
+      I believe leadership means advocating for the mission, not just the department.
+      When I identified a high-performing senior engineer who was underutilized and at
+      risk of stagnation, I didn't wait for her to leave. I **proactively scouted roles**
+      across the organization that matched her full-stack expertise. By coaching her
+      through the transition and managing the stakeholder conversations, I turned a
+      potential resignation into a **high-impact internal placement**, **preserving
+      institutional knowledge** and **strengthening our engineering culture**.
+  - image_path: 
+    title: "Process"
+    excerpt: >-
+      I believe that technical systems should serve the mission, not drain its
+      resources. When I recognized that unconstrained data growth was threatening our
+      long-term scalability, I didn't just implement a fix—I took ownership of our **data
+      lifecycle**. I led a cross-functional initiative for the Human Cell Atlas to
+      transform how we managed redundant and rarely accessed data, establishing a
+      governance framework that automated cost-efficiency and eliminated waste, **saving
+      us nearly $25k annually**. Similarly, by pioneering and socializing a User Quota
+      System for GenePattern, I moved the platform from a state of unsustainable growth
+      back to a mission-aligned resource model, securing a **70% reduction in costs**. For
+      me, this sort of process change isn't about restriction; it's about creating the
+      fiscal and operational room for our **best work to happen**.
+  - image_path: 
+    title: "Product"
+    excerpt: >-
+      I believe a great product is defined by its longevity and its impact, not just
+      its features. I approach product leadership by looking beyond the immediate
+      roadmap to ensure we are building systems that can **scale alongside the
+      organization's mission**. By leveraging data-driven insights, I don't just optimize
+      resource allocation—I advocate for strategic decisions that **balance technical
+      health with user needs**. Whether it's refining a platform's core utility or
+      navigating a pivot in strategy, my focus is on ensuring our technical investments
+      deliver **maximum value to the community we serve** and a **product we can be proud of**.
 ---
 
-# Currently thinking about
-
-# Leadership & Impact
-## People-First Growth
-
-One of my mentees had been hired originally as a senior software engineer. She was truly a full stack engineer, very smart, very self motivated, and entirely underutilized. The lab really just needed an associate engineer to write scripts and run workflows. She was bored and in danger of leaving the institute, but really loved the mission-driven non-profit work. So, I reached out to other managers and teams at the institute and found her another role where her skills would be fully utilized. I helped her navigate and prepare for the interviews and for the tricky conversation with her manager when she made the decision to take the new job, allowing her to make the change with grace and without burning any professional bridges
-
-
-- Outcome: Retained top-tier talent and improved cross-departmental collaboration.
-
-## Strategic Resource Management
-I led the initiative to optimize storage for the Human Cell Atlas data stored in Terra, reducing redundancy and implementing automated lifecycle policies (TTL and Archive states). I also pioneered user storage quotas for GenePattern, ensuring the platform remained viable and mission-focused.
-
-- Outcome: 100TiB saved (~$25k annually) for the Cell Atlas; 70% reduction in storage costs for GenePattern.
-
-
-
-# The Hook - My Mission
-
-With over 20 years in tech, I specialize in translating high-level goals into achievable technical roadmaps. I believe that technical excellence is a byproduct of psychological safety and clear project communication.
-
-I build sustainable systems and the teams that run them. With nearly 2 decades in the mission-driven tech, I specialize in turning complex technical debt into organizational growth.
-
-If you'd like to reach out email me at hill.barbara.a@gmail.com
+{% include home_content.html %}

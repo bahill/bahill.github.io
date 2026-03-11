@@ -1,0 +1,31 @@
+// Override default font sizes here
+html {
+  font-size: 14px; // Change base size
+
+  @media (min-width: 48em) {
+    font-size: 14px;
+  }
+
+  @media (min-width: 64em) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 80em) {
+    font-size: 18px;
+  }
+}
+
+// Override specific elements as needed
+body {
+  font-size: 1em;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+p { font-size: 1em; }
+.archive__item-excerpt {
+  font-size: 1em;
+}
+.feature__item {
+  font-size: 1em;
+}

@@ -15,3 +15,8 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
 end
+
+group :development do
+  gem "jekyll-livereload"
+  gem "webrick", "~> 1.8"
+end

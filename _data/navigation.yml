@@ -3,8 +3,7 @@ main:
     url: /
   - title: "Musings"
     url: /musings/
-  - title: "Experience"
-    url: /experience/
-  - title: "Impact"
-    url: /impact/
-  
+  - title: "Leadership Highlights"
+    url: /leadership-highlights/
+  - title: "Resume"
+    url: /resume/

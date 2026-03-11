@@ -1,0 +1,12 @@
+---
+# Only the first two dashes are stripped
+---
+
+@charset "utf-8";
+
+// Import minimal mistakes theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// Import your custom styles
+@import "custom";
